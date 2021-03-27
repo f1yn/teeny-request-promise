@@ -16,7 +16,7 @@
   "files": [
     "dist/",
     "LICENSE",
-    "README"
+    "README.md"
   ],
   "peerDependencies": {
     "teeny-request": "*"
