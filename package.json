@@ -1,6 +1,6 @@
 {
   "name": "teeny-request-promise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A teeny Promise wrapper around Google's teeny request library",
   "main": "dist/trp.js",
   "types": "dist/dist/trp.d.ts",
@@ -12,7 +12,7 @@
   "author": "f1yn",
   "license": "MIT",
   "homepage": "https://github.com/f1yn/teeny-request-promise",
-  "repository": "https://github.com/f1yn/teeny-request-promise",
+  "repository": "git://github.com/f1yn/teeny-request-promise",
   "files": [
     "dist/",
     "LICENSE",

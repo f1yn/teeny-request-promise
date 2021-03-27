@@ -18,8 +18,6 @@ function teenyRequestPromise(options: TRPOptions): Promise<TRPResponse> {
 	// do some minimal parsing for limited backwards compat
 	const parsedOptions = parseOptions(options);
 
-	console.log('###########', parsedOptions);
-
 	return new Promise((resolve, reject) => {
 		try {
 			teenyRequest(parsedOptions, function teenyRequestCallback(
